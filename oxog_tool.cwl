@@ -49,5 +49,12 @@ outputs:
     type: { type: array, items: File }
     outputBinding:
       glob: "*.vcf.gz"
-
+  - id: callstats
+    type: File
+    outputBinding:
+      glob: "*.call_stats.txt"
+  - id: figures
+    type: { type: array, items: File }
+    outputBinding:
+      glob: "*.png"
 
